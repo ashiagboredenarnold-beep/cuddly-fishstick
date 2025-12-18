@@ -1,0 +1,183 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+     
+body { 
+	background-size:cover;
+	background-position:center;
+	font-family: sans-serif;
+	background-image: url(/image/background.jpg) ;
+	background-position: center;
+	background-size: cover;
+	background-repeat: repeat;
+	
+}
+
+a {
+	color: #fffefe;
+	text-decoration: none;
+}
+  
+.container{
+	margin: auto;
+	max-width: 1100px;
+	overflow: auto;
+	padding: 0 30px;
+}
+
+
+#navbar {
+	background: rgb(199, 197, 197);
+	color: #fff;
+	overflow: auto;
+}
+
+#navbar a{
+	color: white;
+}
+
+#navbar .logo {
+	float: left;
+	padding-top: 20px;
+	width: 90px;
+	height: 90px;
+	position: relative;
+	bottom: 9px;
+}
+
+#navbar ul{
+	list-style: none;
+	float: right;
+	margin-top: 30px;
+}
+
+#navbar ul li{
+	float: left;
+}
+
+#navbar ul li a{
+	display: block;
+	padding: 10px;
+	text-align: center;
+	color: rgb(249, 250, 253);
+}
+
+.home{
+color: blue;
+position: relative;
+}
+
+.container ul li:hover{
+	background: #5b5959;
+}
+
+.l-s{
+	background: #030bf7;
+	padding: 10px;
+	width: 110px;
+	float: right;
+	border-radius: 15px;
+	position: relative;
+}
+
+header {
+    background-color: #1e5631;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header nav {
+    margin-top: 10px;
+}
+
+.header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+
+  
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-track img {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+book-btn {
+    display: inline-block;      
+    padding: 15px 35px;          
+    background: #278556;  
+    border-radius: 15;
+    border-style: solid;
+    color: white;                    
+    font-size: 18px;            
+    font-weight: bold;          
+    border-radius: 8px;          
+    transition: background 0.3s;
+}
+
+.book-btn:hover {
+    background-color: #145a2e; 
+}
+
+
+.center-button {
+    display: flex;               
+    justify-content: center;      
+    align-items: center;        
+    margin: 40px 0;               
+}
+ 
+
+
+.about-preview {
+    padding: 60px 20px;
+    text-align: center;
+    background: white;
+}
+
+.footer {
+    background-color: #1e5631;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
